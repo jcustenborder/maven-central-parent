@@ -11,6 +11,13 @@
     <description>A pom for deploying to maven central.</description>
     <url>https://github.com/jcustenborder/maven-central-parent</url>
     <inceptionYear>2017</inceptionYear>
+    <licenses>
+        <license>
+            <name>Apache License 2.0</name>
+            <url>https://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
     <developers>
         <developer>
             <name>Jeremy Custenborder</name>
