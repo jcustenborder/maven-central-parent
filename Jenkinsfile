@@ -1,5 +1,5 @@
 #!groovy
-package com.github.jcustenborder.jenkins.pipeline
+@Library('jenkins-pipeline') import com.github.jcustenborder.jenkins.pipeline.MavenUtilities
 
 properties([
         buildDiscarder(logRotator(artifactDaysToKeepStr: '', artifactNumToKeepStr: '', daysToKeepStr: '', numToKeepStr: '10'))
